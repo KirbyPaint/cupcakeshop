@@ -10,15 +10,30 @@ body {
   background-color: lightblue;
 }
 
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 50px;
+}
+
 h1 {
   font-size: 60px;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
 
+a {
+  color: red;
+}
+
+a:visited{
+  color: brown;
+}
+
 .flashy {
   color: red;
   font-style: italic;
+  font-size: 18px;
 }
 
 .best {
@@ -27,10 +42,15 @@ h1 {
   color: darkorchid;
   font-size: 30px;
   border: 10px solid darkblue;
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .picsize {
-  width: 50%;
+  width: 25%;
   height: auto;
   margin: auto;
   display: block;
