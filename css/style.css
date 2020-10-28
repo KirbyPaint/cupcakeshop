@@ -34,6 +34,13 @@ a:visited{
   color: red;
   font-style: italic;
   font-size: 18px;
+  margin-left: 200px;
+}
+
+.good {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 50px;
 }
 
 .best {
@@ -43,10 +50,11 @@ a:visited{
   font-size: 30px;
   border: 10px solid darkblue;
   display: block;
-  width: 80%;
+  width: 400px;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 15px;
 }
 
 .picsize {
